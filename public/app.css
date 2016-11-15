@@ -1,0 +1,125 @@
+@font-face {
+  font-family: TradeGothic;
+  src: url(/public/font.woff)
+}
+
+body {
+  font-family: TradeGothic;
+}
+
+.app-header {
+  border-bottom: #E5E5E5 1px solid;
+}
+
+.back-link {
+  font-size: 12px;
+  color: #666;
+  text-decoration: underline;
+}
+
+.back-link-container:before {
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  box-sizing: border-box;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #333;
+  border-top: 5px solid transparent;
+  left: -4px;
+  top: 2px;
+}
+
+.cart-content {
+  background: #fff;
+  color: #666;
+  border: 1px solid #f3f3f3;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.cta-btn {
+  background-color: #fa5400;
+  border-color: #fa5400;
+  color: #fff;
+  width: 150px;
+  letter-spacing: -1px;
+  font-size: 15px;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 2px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.cart-summary {
+  background: #191919;
+  letter-spacing: .025em;
+  font-size: 14px;
+  color: #efefef;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.cart-summary-column {
+  text-align: left;
+  display: table-cell;
+  width: 300px;
+  padding: 0 20px 40px;
+}
+
+.cart-heading {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-radius: 3px 3px 0 0;
+  background-color: #eee;
+  line-height: 1em;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.checkout-header {
+  letter-spacing: .025em;
+  font-size: 20px;
+  background: #333;
+  min-height: 40px;
+  color: #fff;
+  line-height: 40px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  padding: 8px 20px;
+}
+
+.checkout-section {
+  padding: 20px;
+  background: #eee;
+}
+
+.checkout-section-inner {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.checkout-section-inner .grid {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 12px;
+  color: #666;
+}
+
+.title {
+  color: #222;
+}
