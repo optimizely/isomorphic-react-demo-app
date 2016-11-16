@@ -1,10 +1,5 @@
-@font-face {
-  font-family: TradeGothic;
-  src: url(/public/font.woff)
-}
-
 body {
-  font-family: TradeGothic;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .app-header {
