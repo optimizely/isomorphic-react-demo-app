@@ -1,8 +1,8 @@
-#Optimizely Isomorphic React Web App Demo
+# Optimizely Isomorphic React Web App Demo
 
 This demo node web app uses the Optimizely Node SDK and Javascript SDK for A/B Testing. The web app is built using React/Redux and is an isomorphic web app. All React components are shared between the server and client and can be rendered both on the server-side and on the frontend.
 
-##Optimizely Full Stack Overview
+## Optimizely Full Stack Overview
 
 Optimizely Full Stack allows developers to run experiments anywhere in their code! The Node and Javascript SDKs provides the core components to run a full stack experiment with Optimizely. It handles aspects like bucketing, which is used to designate users to a specific experiment variation, conversion tracking, and reporting via Optimizely’s [Stats Engine](https://www.optimizely.com/statistics/).
 
