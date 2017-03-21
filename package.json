@@ -16,7 +16,7 @@
     "lodash": "^4.13.1",
     "nodemon": "^1.10.0",
     "optimizely-oui": "^13.2.0",
-    "optimizely-server-sdk": "1.0.0",
+    "optimizely-server-sdk": "1.2.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",
@@ -36,7 +36,7 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-2": "^6.11.0",
     "eslint-plugin-react": "5.2.2",
-    "optimizely-client-sdk": "^1.1.0",
+    "optimizely-client-sdk": "^1.3.3",
     "webpack": "^1.13.1"
   }
 }
