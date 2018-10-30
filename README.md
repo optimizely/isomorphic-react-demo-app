@@ -2,7 +2,7 @@
 
 This tutorial enables you to quickly get started in your development efforts to create a React/Redux-based webpage with the Optimizely Isomorphic React Web App Demo. This demo package includes an interactive project that contains two experiments. The first experiment illustrates how an online retailer could use a Variation to sort the items to be rendered by price or name. The Experiment second shows how a Variation can be used to select between a one-screen or two-screen checkout process.
 
-![test-app screen](./main_screenshot.png)
+![test-app screen](./public/main_screenshot.png)
 
 This demo node web app uses the Optimizely Node SDK and JavaScript SDK for A/B Testing. The web app is built using React/Redux and is an isomorphic web app. All React components are shared between the server and client and can be rendered both on the server-side and on the frontend.
 
