@@ -4,7 +4,7 @@ This tutorial enables you to quickly get started in your development efforts to 
 
 ![test-app screen](./public/main_screenshot.png)
 
-This demo node web app uses the Optimizely Node SDK and JavaScript SDK for A/B Testing. The web app is built using React/Redux and is an isomorphic web app. All React components are shared between the server and client and can be rendered both on the server-side and on the frontend.
+This demo node web app uses the Optimizely Node SDK and JavaScript SDK for A/B Testing. The web app is built using React/Redux and is an isomorphic web app. All React components are shared between the server and client and can be rendered both on the server side and on the frontend.
 
 The demo works as follows:
 * Configuration starts by setting up a project, feature, and event in the Optimizely dashboard which will be queried by the demo web page using the Optimizely JavaScript API.
@@ -22,7 +22,7 @@ The following sequence diagram illustrates the flow:
 
 ![sequence diagram](./public/experiment_flow_sequence_diagram.jpg)
 
-**Note**: the experimentation logic is not instrumented in the React component themselves. Instead the experiment variations are determined before computing the application state and are used to vary that state to reflect the experiments being run. The experimentation logic runs in the Redux code inside the `action_creators`. The Demo App also stores the experiment data in a Redux store so the React components can access the experiment data and render themselves accordingly.
+**Note**: The experimentation logic is not instrumented in the React components themselves. Instead, the experiment variations are determined before computing the application state and are used to vary that state to reflect the experiments being run. The experimentation logic runs in the Redux code inside the `action_creators`. The Demo App also stores the experiment data in a Redux store so the React components can access the experiment data and render themselves accordingly.
 
 ## Prerequisites
 * [Optimizely account](https://app.optimizely.com/signin)
@@ -62,7 +62,7 @@ webpack
 ```shell
 npm start
 ```
-Once the server is executing, the output should indicate that it's running on Port 4242.
+Once the server is executing, the output should indicate that it's running on port 4242.
 4. Open a browser and enter `http://localhost:4242` as the URL. The demo webpage should display.
 
 ## How the Test App was Created
@@ -119,6 +119,7 @@ module.exports = {
 
 ### Visual Assets
 **./src/server/services/items.js** contains the list of products to sell on the demo website. For each product the file provides the name, color, category, price and the name of a .png image file to display. The image files are located in **./public/**:
+
 |Asset                   |Description                                                                                        |
 |------------------------|---------------------------------------------------------------------------------------------------|
 |`item_1.png`            |Contains an image of a hat.|
