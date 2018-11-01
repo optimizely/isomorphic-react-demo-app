@@ -28,7 +28,7 @@ class ProducDetailPage extends React.Component {
   }
 
   componentDidMount() {
-    this.props.fetchShoe(this.props.itemId)
+    this.props.fetchShoe && this.props.fetchShoe(this.props.itemId)
   }
 
   render() {

@@ -14,8 +14,6 @@ Optimizely Full Stack allows developers to run experiments anywhere in their cod
 
 * Latest [Javascript SDK](https://github.com/optimizely/javascript-sdk)
 
-* Latest [Node SDK](https://github.com/optimizely/node-sdk)
-
 ## Setting up the Optimizely Experiment
 
 If you haven't yet, please sign up for an [Optimizely account](https://www.optimizely.com/) and create a Node Fullstack project. Once you have a project ID, replace it in the [enums file](./src/common/utils/enums.js).

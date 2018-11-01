@@ -1,7 +1,7 @@
 import Promise from 'bluebird'
 import enums from '../common/utils/enums'
-import optimizely from 'optimizely-client-sdk'
-import optimizelyLoggerFactory from 'optimizely-server-sdk/lib/plugins/logger'
+import optimizely from '@optimizely/optimizely-sdk'
+import optimizelyLoggerFactory from '@optimizely/optimizely-sdk/lib/plugins/logger'
 
 const PROJECT_ID = enums.PROJECT_ID
 const PROJECT_JSON_URL = `https://cdn.optimizely.com/json/${PROJECT_ID}.json`
