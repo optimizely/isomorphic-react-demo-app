@@ -4,8 +4,8 @@
  */
 import Promise from 'bluebird'
 import enums from './enums'
-import optimizely from 'optimizely-server-sdk'
-import optimizelyLoggerFactory from 'optimizely-server-sdk/lib/plugins/logger'
+import optimizely from '@optimizely/optimizely-sdk'
+import optimizelyLoggerFactory from '@optimizely/optimizely-sdk/lib/plugins/logger'
 import requestPromise from 'request-promise'
 
 const PROJECT_ID = enums.PROJECT_ID
